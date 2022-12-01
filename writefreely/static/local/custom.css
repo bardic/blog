@@ -1,0 +1,109 @@
+:root {
+	--bg-color: #333;
+	--text-color: #fff;
+	--link-color: #ccc;
+	--header-color: #ddd;
+}
+
+body {
+	color: var(--text-color);
+	background: var(--bg-color);
+}
+
+body .post-title a:link, a:visited {
+	color: var(--link-color);
+}
+
+.or p {
+	background: var(--bg-color);
+}
+
+#collection .post-title a {
+	color: var(--link-color);
+}
+
+footer {
+    display: none;
+}
+
+header nav a, header nav a:visited, body footer a.home:link, body footer a.home:visited, body footer .marketing-section h3 a, body#collection a.read-more, body#subpage a.read-more {
+	color: #999 !important;
+}
+
+#collection {
+	color: var(--text-color);
+}
+
+#collection pre {
+	background: #060606;
+}
+
+body h1 a, body header h2 a {
+	color: #cfcfcf;
+}
+
+body h1 a:hover, body header h2 a:hover {
+	color: #fff;
+}
+
+body h1 a:visited, body header h2 a:visited {
+	color: var(--link-color);
+}
+
+body #manage ul a, body .dropdown-nav ul a, body #manage ul ul a, body #manage ul a {
+	color: var(--link-color);
+}
+
+body .dropdown-nav ul ul, body .dropdown-nav ul li:hover, body #manage ul ul, body #manage ul ul li:hover, body #manage ul li:hover {
+	background: #222;
+}
+
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+	color: var(--header-color);
+}
+
+body a {
+	color: #a2a2ff;
+}
+
+body a:visited {
+	color: #c98afd;
+}
+
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+	color: var(--header-color);
+}
+
+body #official-writing ul.collections li.collection a.title:link, body #official-writing ul.collections li.collection a.title:visited, body #wrapper ul.collections li.collection a.title:link, body #wrapper ul.collections li.collection a.title:visited {
+	color: #cfcfcf;
+}
+
+body #official-writing ul.collections li a.create, body #wrapper ul.collections li a.create {
+	color: #aaa;
+}
+
+body#me #official-writing h2 a:link, body#me #official-writing h2 a:visited {
+	color: #a2a2ff;
+}
+
+hr {
+	background: #666;
+}
+
+body footer nav, header p.description {
+	color: #ccc;
+}
+
+input {
+	background: #202020;
+	color: #fff;
+}
+
+#manage ul ul li img {
+	filter: invert(1);
+}
+
+#post code, #collection code, #subpage code {
+	background: #202020;
+	color: #bbb;
+}
